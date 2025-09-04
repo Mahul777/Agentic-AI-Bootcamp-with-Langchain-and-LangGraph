@@ -1,5 +1,5 @@
 ipykernel
-pydantic
+# pydantic
 
 # 2.0 Getting Started
 langchain
@@ -53,4 +53,24 @@ faiss-cpu                # FAISS vector database
 python-dotenv            # Load environment variables from .env file
 ollama                    # Ollama LLM integration
 requests                  # HTTP requests
+
+# 8.1 Simple Chatbot App
+langchain
+langchain-groq
+python-dotenv
+# openai
+jupyter
+langchain_core
+langsmith
+requests
+tqdm
+
+fastapi       # – for creating API server
+uvicorn       # – ASGI server to run FastAPI apps
+langserve     # – to convert chains into APIs
+python-dotenv # – to load environment variables
+starlette     # – (auto dependency of FastAPI, but install if needed)
+sse_starlette
+pydantic<2
+
 
