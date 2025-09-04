@@ -1,2 +1,38 @@
 ipykernel
 pydantic
+
+# 2.0 Getting Started
+langchain
+python-dotenv
+ipykernel
+
+# 3.0 Data Ingestion
+langchain-community
+ipykernel
+langchain
+pypdf
+bs4
+pymupdf
+wikipedia
+
+# 4.0 Data Transformer
+langchain-text-splitters
+
+# 5.1 OpenAIEmbedding
+langchain-openai
+python-dotenv
+chromadb
+
+# 5.2 OllamaEmbedding
+langchain-community
+
+# 5.3 HuggingFaceEmbedding
+sentence-transformers
+langchain-huggingface
+langchain
+tqdm
+# 6.1 Faiss
+faiss-cpu
+# 6.2 Chroma
+chromadb
+langchain-chroma
