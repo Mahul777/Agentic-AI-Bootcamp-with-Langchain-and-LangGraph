@@ -36,3 +36,21 @@ faiss-cpu
 # 6.2 Chroma
 chromadb
 langchain-chroma
+
+# 7.1 Getting Started
+langchain
+langchain-community
+langchain-core
+python-dotenv
+langsmith    # Only needed if you're using LangSmith tracking
+
+# 7.2 Simple GenAI App
+beautifulsoup4             # HTML parsing
+langchain                 # Core LangChain framework
+langchain-community      # Community integrations (e.g., Ollama, FAISS, loaders)
+langchain-core           # Core building blocks (Document, Prompt, Chains)
+faiss-cpu                # FAISS vector database
+python-dotenv            # Load environment variables from .env file
+ollama                    # Ollama LLM integration
+requests                  # HTTP requests
+
