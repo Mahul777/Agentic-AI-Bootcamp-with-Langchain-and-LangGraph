@@ -21,7 +21,7 @@ langchain-text-splitters
 # 5.1 OpenAIEmbedding
 langchain-openai
 python-dotenv
-chromadb
+# chromadb
 
 # 5.2 OllamaEmbedding
 langchain-community
@@ -34,8 +34,8 @@ tqdm
 # 6.1 Faiss
 faiss-cpu
 # 6.2 Chroma
-chromadb
-langchain-chroma
+# chromadb
+# langchain-chroma
 
 # 7.1 Getting Started
 langchain
@@ -71,6 +71,45 @@ langserve     # – to convert chains into APIs
 python-dotenv # – to load environment variables
 starlette     # – (auto dependency of FastAPI, but install if needed)
 sse_starlette
-pydantic<2
+# pydantic<2
+
+# 9.1 Chatbot
+langchain
+langchain-core
+langchain-community
+langchain-groq
+python-dotenv
+groq
+ipykernel
+rich
+
+# 9.1 SimpleLangGraaph
+langchain
+langgraph
+langchain-core
+langchain-community
+ipykernel
+
+# 9.2 Chatbot
+# Core libraries
+langgraph
+langchain
+langchain-core
+langchain-community
+
+# OpenAI support
+openai
+langchain-openai
+
+# Groq support
+langchain-groq
+
+# Ollama support (local LLMs)
+ollama
+
+# Env variables
+python-dotenv
+
+
 
 
