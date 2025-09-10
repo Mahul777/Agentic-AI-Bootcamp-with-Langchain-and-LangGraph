@@ -110,6 +110,12 @@ ollama
 # Env variables
 python-dotenv
 
+# 10.2 Pydantic
+pydantic
+
+# 10.5 CHATBOT_MULTITOOLS_LANGGRAPH
+arxiv
+wikipedia
 
 
 
