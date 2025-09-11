@@ -2,14 +2,14 @@ ipykernel
 # pydantic
 
 # 2.0 Getting Started
-langchain
+#langchain
 python-dotenv
 ipykernel
 
 # 3.0 Data Ingestion
-langchain-community
+#langchain-community
 ipykernel
-langchain
+#langchain
 pypdf
 bs4
 pymupdf
@@ -19,17 +19,17 @@ wikipedia
 langchain-text-splitters
 
 # 5.1 OpenAIEmbedding
-langchain-openai
+#langchain-openai
 python-dotenv
 # chromadb
 
 # 5.2 OllamaEmbedding
-langchain-community
+#langchain-community
 
 # 5.3 HuggingFaceEmbedding
 sentence-transformers
 langchain-huggingface
-langchain
+#langchain
 tqdm
 # 6.1 Faiss
 faiss-cpu
@@ -38,30 +38,30 @@ faiss-cpu
 # langchain-chroma
 
 # 7.1 Getting Started
-langchain
-langchain-community
-langchain-core
+#langchain
+#langchain-community
+#langchain-core
 python-dotenv
-langsmith    # Only needed if you're using LangSmith tracking
+#langsmith    # Only needed if you're using LangSmith tracking
 
 # 7.2 Simple GenAI App
 beautifulsoup4             # HTML parsing
-langchain                 # Core LangChain framework
-langchain-community      # Community integrations (e.g., Ollama, FAISS, loaders)
-langchain-core           # Core building blocks (Document, Prompt, Chains)
+#langchain                 # Core LangChain framework
+#langchain-community      # Community integrations (e.g., Ollama, FAISS, loaders)
+#langchain-core           # Core building blocks (Document, Prompt, Chains)
 faiss-cpu                # FAISS vector database
 python-dotenv            # Load environment variables from .env file
 ollama                    # Ollama LLM integration
 requests                  # HTTP requests
 
 # 8.1 Simple Chatbot App
-langchain
+#langchain
 langchain-groq
 python-dotenv
 # openai
 jupyter
 langchain_core
-langsmith
+#langsmith
 requests
 tqdm
 
@@ -74,9 +74,9 @@ sse_starlette
 # pydantic<2
 
 # 9.1 Chatbot
-langchain
-langchain-core
-langchain-community
+#langchain
+#langchain-core
+#langchain-community
 langchain-groq
 python-dotenv
 groq
@@ -84,22 +84,22 @@ ipykernel
 rich
 
 # 9.1 SimpleLangGraaph
-langchain
+#langchain
 langgraph
-langchain-core
-langchain-community
+#langchain-core
+#langchain-community
 ipykernel
 
 # 9.2 Chatbot
 # Core libraries
 langgraph
-langchain
-langchain-core
-langchain-community
+#langchain
+#langchain-core
+#langchain-community
 
 # OpenAI support
 openai
-langchain-openai
+#langchain-openai
 
 # Groq support
 langchain-groq
@@ -116,6 +116,12 @@ pydantic
 # 10.5 CHATBOT_MULTITOOLS_LANGGRAPH
 arxiv
 wikipedia
+
+#11-debugging
+langgraph-cli[inmem] # lets you build, run, develop, and deploy a LangGraph API server locally
+
+
+
 
 
 
