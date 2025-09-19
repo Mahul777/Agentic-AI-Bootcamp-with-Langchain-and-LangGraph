@@ -123,6 +123,11 @@ langgraph-cli[inmem] # lets you build, run, develop, and deploy a LangGraph API 
 # 12-Workflow
 grandalf
 
+# 14.1 Agentic RAG
+beautifulsoup4
+faiss-cpu
+
+
 
 
 
