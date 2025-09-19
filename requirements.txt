@@ -126,7 +126,7 @@ grandalf
 # 14.1 Agentic RAG
 beautifulsoup4
 faiss-cpu
-
+pyppeteer
 
 
 
